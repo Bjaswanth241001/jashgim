@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASH FINESS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /*css reset*/
+        body{
+            font-family: 'Baloo Tammudu 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("img/bg.jpg");
+        }
+        .left{
+            display: inline-block;
+            border: 2px solid red;
+            position: absolute;
+            left: 36px;
+            top: 20px;
+
+        }
+        .left img{
+            width: 136px;
+        
+        }
+        .left div{
+            text-align: center;
+            line-height: 44px;
+            font-size: 24px;
+        }
+        .mid{
+            display: block;
+            width: 36%;
+            margin: 20px auto;
+            border: 2px solid green;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            border: 2px solid blue;
+
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li {
+            display: inline-block;
+            font size: 25px
+            ;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+        .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+
+        }
+        .btn{
+            font-family: 'Baloo Tammudu 2', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(204, 175, 175);
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/img.jpg" alt="">
+            <div>jash fitness</div>
+        </div>
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li> <a href="#">about us</a></li>
+                <li><a href="#">fitness</a></li>
+                <li><a href="#">contactus</a></li>
+            </ul>
+        </div>
+        <div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email Us</button>
+        </div>
+    </header>
+</body>
+</html>
